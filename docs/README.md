@@ -45,7 +45,7 @@ This model achieves the following results on COCO 2017 validation: a box AP (ave
 For more details regarding evaluation results, we refer to table 5 of the original paper.
 
 
-## **Additinal Usage Steps** (Optional)
+## **Additional Usage Steps** (Optional)
 *If your bundle requires steps outside the normal flow of usage, describe those here in bash style commands.*
 
 Example:
