@@ -1,123 +1,71 @@
-### Team
+# Team
 
-##### **Patricia**
+- **Patricia** — Machine Learning (Lead)
+- **Shriya** — Machine Learning (Lead, MIT Boston)
+- **Asmaa** — Data Engineering
+- **Shane** — Doctor (medical and mathematical expertise)
+- **Duncan** — Machine Learning (Lead)
+- **Govind** — Reviewing
+- **Kunal** — Nvidia Training
 
-^141556
+# Steps
 
-Machine Learning ( Lead )
-##### **Shriya**
+### 1. Data Collection
 
-^192ebb
+- From [Public Datasets (MONAI, Kaggle, INBreast)](https://docs.google.com/spreadsheets/d/1-1IvO2kFGPnquefa9rqXMLiJvNajsqybzYZNq5MkMFo/edit?gid=0#gid=0)
 
-Boston MIT Machine Learning ( Lead )
-##### **Asmaa**
+### 2. Data Exploration
 
-^b46694
+- **2.1** Data distribution (number of images with tumor vs without tumor)
+- **2.2** General information about the dataset
 
-Ingénieurie DATA
-##### **Shane**
+### 3. Data Preprocessing
 
-^f18ce9
+- **3.1** Handle class imbalance
+- **3.2** Sync (September 30th, 2025)
+    - Patricia
+    - Shane (participation and feedback)
+    - Asmaa
+    - Duncan (?)
 
-Doctor ( appel à des médécins et des maths)
-##### **Duncan**
-
-^eb4e0c
-
-Machine Learning ( Lead )
-###### **Govind**
-
-^7c70c0
-
-Reviewing
-
-##### **Kunal**
-
-^348a3c
-
-Nvidia Formation
-
-## Objectifs et Expected Outputs
-
-**Sensibilité** > 0,9
-
-## Steps
-
-### 1. Get data
-
-##### 1.1  From [Public Datasets ( MONAI, Kaggle, INBreast )](https://docs.google.com/spreadsheets/d/1-1IvO2kFGPnquefa9rqXMLiJvNajsqybzYZNq5MkMFo/edit?gid=0#gid=0)
-
-### 2. Exploration de la data
-
-##### 2.1 Shape of data ( cb photos avec tumeur < cb photos sans tumeur )
-
-##### 2.2 Information about data
-
-### 3.  Preprocessing de la data
-
-##### 3.1 Manage Unbalanced
-
-#### 3.2 Sync ( September 30th, 2025 ) 
-[[Detection#^141556|Patricia]]
-[[Detection#^f18ce9|Shane]] Participation réunion avec retour des infos
-[[Detection#^b46694|Asmaa]]
-[[Detection#^eb4e0c|Duncan]] ?
 ### 4. Model Training
 
-#### 4.1 Model Selection computer vision for detection ( YOLO, Faster RCNN ... )
+- **4.1** Model selection for computer vision detection (YOLO, Faster R-CNN, etc.)
+- **4.3** Sync (October 7th, 2025)
+    - Patricia
+    - Asmaa
+    - Duncan
+    - Shriya
+    - Kunal
 
-#### 4.3 Sync ( October 7th, 2025 )
-[[Detection#^141556|Patricia]]
-[[Detection#^b46694|Asmaa]]
-[[Detection#^eb4e0c|Duncan]]
-[[Detection#^192ebb|Shriya]]
-[[Detection#^348a3c|Kunal]]
-### 5. Finetuner
+### 5. Fine-tuning
 
-#### 6. Évaluation & validation
+### 6. Evaluation & Validation
 
-#### 6.1 Choix de la metrics ( ROC-AUC,  FROC ...)
+- **6.1** Choice of metrics (ROC-AUC, FROC, etc.)
+- **6.2** If possible: additional info (tumor localization, age, sex, [Density], etc.)
+- **6.3** Sync (October 17th, 2025)
+    - Patricia
+    - Duncan
+    - Shriya
+    - Kunal
 
-#### 6.2 Si Possible info ( localisation tumeur, age, sex, [[Density]] .... )  
+### 7. Final Packaging (MONAI-based)
 
-#### 6.1 Sync ( October 17th, 2025 )
-[[Detection#^141556|Patricia]]
-[[Detection#^eb4e0c|Duncan]]
-[[Detection#^192ebb|Shriya]]
-[[Detection#^348a3c|Kunal]]
-#### 7. Final Packaging ( MONAI based )
+- **7.1** MONAI Bundle Creation
+    - Project Structure
+    - Complete `/docs/README.md`
+- **7.1** API Endpoint Creation
+    - FastAPI
+    - Pydantic (typing)
+    - Swagger
+    - Docker
+- **7.2** Sync (October 24th, 2025)
+    - Patricia (?)
+    - Kunal
+    - Asmaa
+    - Govind
 
-##### 7.1 API endpoint Création 
-	- FastAPI ?
-	- Pydantic ( typing )
-	- Swagger
-	- Docker
-	- README
-##### 7.2 Sync ( October 24th, 2025 )
-[[Detection#^141556|Patricia]] ?
-[[Detection#^348a3c|Kunal]]
-[[Detection#^b46694|Asmaa]]
-[[Detection#^7c70c0|Govind]]
-### ( Optionnal )
-#### 8. DICOM protocol and acquisition
+### (Optional) 8. DICOM Protocol & Acquisition
 
-##### 8.1 Anonymize data ( RGPD, HDS ... )
-
-```mermaid
----
-config:
-  look: handDrawn
-  theme: light
----
-flowchart LR
-	BRANCH_PER_PERSON -->|PR| Development -->|OWNER MERGE| START[Master]  
-```
-
-### Convention de Commit
-
-use commitizen if wanted.
-
-<type>(<scope>): <Description courte>
-<Breakline>
-	<Description longue: Explication, motivation ...>
-<Breakline>
+- **8.1** Data anonymization (GDPR, HDS compliance, etc.)
