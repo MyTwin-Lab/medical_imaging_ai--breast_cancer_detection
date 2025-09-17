@@ -5,7 +5,7 @@
 
 Example:
 
-Firstname1 LastName1, Firstname2 Lastname2, Affiliation1
+Firstname1 LastName1 (@github_username1), Firstname2 Lastname2 (@github_username1), Affiliation1
 
 ### **Tags**
 *What tags describe the model and task performed? Use a comma seperated list*
