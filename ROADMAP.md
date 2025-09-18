@@ -1,7 +1,7 @@
 # Team
 
-- **Patricia** — Software & Machine Learning Engineer (Lead)
-- **Shriya** — Machine Learning Engineer (Lead)
+- **Patricia** — Software & Machine Learning Engineer
+- **Shriya** — Machine Learning Engineer
 - **Asmaa** — Biomedical & Software Engineer
 - **Shane** — Associate Professor
 - **Duncan** — Machine Learning Engineer
