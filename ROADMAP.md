@@ -12,7 +12,7 @@
 
 ### 1. Data Collection
 
-- From [Public Datasets (MONAI, Kaggle, INBreast)](https://docs.google.com/spreadsheets/d/1-1IvO2kFGPnquefa9rqXMLiJvNajsqybzYZNq5MkMFo/edit?gid=0#gid=0)
+- [Public Datasets (MONAI, Kaggle, INBreast)](https://docs.google.com/spreadsheets/d/1-1IvO2kFGPnquefa9rqXMLiJvNajsqybzYZNq5MkMFo/edit?gid=0#gid=0)
 
 ### 2. Data Exploration
 
