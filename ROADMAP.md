@@ -16,7 +16,7 @@
 
 ### 2. Data Exploration
 
-- **Team** Sync (September 30th, 2025)
+- **Team**
     - Patricia
     - Asmaa
 - **2.1** Data distribution (number of images with tumor vs without tumor)
