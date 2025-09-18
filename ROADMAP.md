@@ -44,8 +44,21 @@
 
 ### 5. Fine-tuning
 
+- **Team**
+    - Patricia
+    - Asmaa
+    - Duncan
+    - Shriya
+    - Kunal
+- **5.1** (To be defined...)
+
 ### 6. Evaluation & Validation
 
+- **Team**
+    - Patricia
+    - Duncan
+    - Shriya
+    - Kunal
 - **6.1** Choice of metrics (ROC-AUC, FROC, etc.)
 - **6.2** If possible: additional info (tumor localization, age, sex, [Density], etc.)
 - **6.3** Sync (October 17th, 2025)
@@ -56,6 +69,11 @@
 
 ### 7. Final Packaging (MONAI-based)
 
+- **Team**
+    - Patricia (?)
+    - Kunal
+    - Asmaa
+    - Govind
 - **7.1** MONAI Bundle Creation
     - Project Structure
     - Complete `/docs/README.md`
@@ -70,6 +88,6 @@
     - Asmaa
     - Govind
 
-### (Optional) 8. DICOM Protocol & Acquisition
+### (To be defined...) 8. DICOM Protocol & Acquisition
 
 - **8.1** Data anonymization (GDPR, HDS compliance, etc.)
