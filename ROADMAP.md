@@ -24,7 +24,7 @@
 
 ### 3. Data Preprocessing
 
-- **Team** Sync (September 30th, 2025)
+- **Team**
     - Patricia
     - Asmaa
     - Shane (feedback)
