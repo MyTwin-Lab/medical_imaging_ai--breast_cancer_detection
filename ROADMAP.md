@@ -1,12 +1,12 @@
 # Team
 
-- **Patricia** — Machine Learning (Lead)
-- **Shriya** — Machine Learning (Lead, MIT Boston)
-- **Asmaa** — Data Engineering
-- **Shane** — Doctor (medical and mathematical expertise)
-- **Duncan** — Machine Learning (Lead)
-- **Govind** — Reviewing
-- **Kunal** — Nvidia Training
+- **Patricia** — Software & Machine Learning Engineer (Lead)
+- **Shriya** — Machine Learning Engineer (Lead)
+- **Asmaa** — Biomedical & Software Engineer
+- **Shane** — Associate Professor
+- **Duncan** — Machine Learning Engineer
+- **Govind** — Biomedical Engineer
+- **Kunal** — Data Scientist
 
 # Steps
 
