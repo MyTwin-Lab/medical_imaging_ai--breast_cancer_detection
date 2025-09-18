@@ -17,16 +17,21 @@
 ### 2. Data Exploration
 
 - **2.1** Data distribution (number of images with tumor vs without tumor)
+    - Patricia
+    - Asmaa
 - **2.2** General information about the dataset
+    - Patricia
+    - Asmaa
 
 ### 3. Data Preprocessing
 
 - **3.1** Handle class imbalance
+    - Patricia
+    - Asmaa
 - **3.2** Sync (September 30th, 2025)
     - Patricia
     - Shane (participation and feedback)
     - Asmaa
-    - Duncan (?)
 
 ### 4. Model Training
 
