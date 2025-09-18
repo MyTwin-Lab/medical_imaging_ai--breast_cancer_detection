@@ -19,6 +19,7 @@
 - **Team**
     - Patricia
     - Asmaa
+    - Shane (feedback)
 - **2.1** Data distribution (number of images with tumor vs without tumor)
 - **2.2** General information about the dataset
 
