@@ -16,32 +16,31 @@
 
 ### 2. Data Exploration
 
+- **Team** Sync (September 30th, 2025)
+    - Patricia
+    - Asmaa
 - **2.1** Data distribution (number of images with tumor vs without tumor)
-    - Patricia
-    - Asmaa
 - **2.2** General information about the dataset
-    - Patricia
-    - Asmaa
 
 ### 3. Data Preprocessing
 
+- **Team** Sync (September 30th, 2025)
+    - Patricia
+    - Asmaa
+    - Shane (feedback)
 - **3.1** Handle class imbalance
-    - Patricia
-    - Asmaa
 - **3.2** Sync (September 30th, 2025)
-    - Patricia
-    - Shane (participation and feedback)
-    - Asmaa
 
 ### 4. Model Training
 
-- **4.1** Model selection for computer vision detection (YOLO, Faster R-CNN, etc.)
-- **4.3** Sync (October 7th, 2025)
+- **Team**
     - Patricia
     - Asmaa
     - Duncan
     - Shriya
     - Kunal
+- **4.1** Model selection for computer vision detection (YOLO, Faster R-CNN, etc.)
+- **4.2** Sync (October 7th, 2025)
 
 ### 5. Fine-tuning
 
