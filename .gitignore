@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+
+# Dataset
+INbreast/
+
+# Checkpoints and training outputs
+outputs/
