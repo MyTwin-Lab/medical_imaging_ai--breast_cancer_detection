@@ -454,7 +454,7 @@ def run_training():
             dfs = [pd.read_csv(path) for path in csv_paths]
             self.df = pd.concat(dfs, ignore_index=True)
             self.transform = transform
-            self.view_indices = {"L_CC": 0, "L_MLO": 1, "R_CC": 2, "R_MLO": 3}            
+            self.view_indices = {"L_CC": 0, "R_CC": 1, "L_MLO": 2, "R_MLO": 3}            
             grouped = self.df.groupby(['patient_id','side'])
             
             self.examinations = []
@@ -496,13 +496,13 @@ def run_training():
                     view_mask[self.view_indices[view_key]] = True
 
             # if exam.get('L_CC'):
-            load_view(f'{side}_CC')
+            load_view('L_CC')
             # if exam.get('L_MLO'):
-            load_view(f'{side}_MLO')
+            load_view('R_CC')
             # if exam.get('R_CC'):
-            # load_view('R_CC')
+            load_view('L_MLO')
             # if exam.get('R_MLO'):
-            # load_view('R_MLO')
+            load_view('R_MLO')
                 # view_mask[0] = True
 
             # left_malignant = True if (exam.get('L_CC') and exam['L_CC']['label'] == 1) or (exam.get('L_MLO') and exam['L_MLO']['label'] == 1) else False
